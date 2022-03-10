@@ -26,8 +26,8 @@ function generatePassword() {
   } else {
         promptNum = confirm("Do you want to include numbers in your password?");
         promptChar = confirm("Do you want to include special characters in your password?");
-        promptUppercase = confirm("Do you want to include special characters in your password?");
-        promptLowercase = confirm("Do you want to include special characters in your password?");
+        promptUppercase = confirm("Do you want to include uppercase letters in your password?");
+        promptLowercase = confirm("Do you want to include lowercase letters in your password?");
   };
   // if statements for no prompts being answered
   if (!promptChar && !promptNum && !promptUppercase && !promptLowercase) {
